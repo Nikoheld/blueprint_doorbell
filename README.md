@@ -24,7 +24,7 @@ Sorry for the bad renderings i tried my best and i will try to improve it next t
 | Product  | Cost in Dollar |
 | ------------- |:-------------:|
 | Seedstudio Xiao Sense      | 14.93     |
-| MAX98357A      | 1.36     |
+| MAX98357A      | I can provide it     |
 | KF301-2P      | 1.25     |
 | KF301-3P       | 1.46     |
 | TP10322615      | 1.03     |
@@ -32,11 +32,11 @@ Sorry for the bad renderings i tried my best and i will try to improve it next t
 | 470UF 10V capacitor       | 1.23     |
 | Relais      | 3.41     |
 | PCB       | 9.79      |
-| Speaker      | 10.33     |
+| Speaker      | I can provide it     |
 | Filament       | I can provide it     |
 | MicroSD card       | I can provide it     |
 | 230V to 5V       | I can provide it      |
-| Total       | 46.25     |
+| Total       | 34.56$     |
 
 
 
