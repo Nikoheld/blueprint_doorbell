@@ -22,6 +22,10 @@ Sorry for the bad renderings i tried my best and i will try to improve it next t
 ## The schematic
 <img width="1420" height="761" alt="image" src="https://github.com/user-attachments/assets/46956c15-d188-4b5e-b39d-28e2da4de031" />
 
+## The PCB
+<img width="699" height="960" alt="image" src="https://github.com/user-attachments/assets/2a6b2864-9375-454b-a181-6641a25a725d" />
+
+
 
 
 
