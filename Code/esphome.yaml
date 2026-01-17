@@ -1,0 +1,100 @@
+esphome:
+  name: Video Doorbell
+  friendly_name: Video Doorbell
+
+esp32:
+  board: xiao_esp32s3
+  framework:
+    type: arduino
+
+web_server:
+  port: 80
+
+logger:
+
+api:
+
+ota:
+  - platform: esphome
+
+wifi:
+  ssid: Your WIFI SSID
+  password: Your WIFI Password
+  ap:
+    ssid: "Doorbell AP"
+
+esp32_camera:
+  external_clock:
+    pin: GPIO10
+    frequency: 20MHz
+  i2c_pins:
+    sda: GPIO40
+    scl: GPIO39
+  data_pins: [GPIO15, GPIO17, GPIO18, GPIO16, GPIO14, GPIO12, GPIO11, GPIO48]
+  vsync_pin: GPIO38
+  href_pin: GPIO47
+  pixel_clock_pin: GPIO13
+  power_down_pin: GPIO-1
+  resolution: 800x600
+  jpeg_quality: 10
+
+i2s_audio:
+  - id: i2s_out_bus
+    i2s_lrclk_pin: GPIO2
+    i2s_bclk_pin: GPIO8
+    i2s_dout_pin: GPIO4
+
+  - id: i2s_in_bus
+    i2s_lrclk_pin: GPIO42
+    i2s_dout_pin: GPIO41
+    i2s_bclk_pin: GPIO42
+
+media_player:
+  - platform: i2s_audio
+    name: "Klingel Lautsprecher"
+    id: klingel_speaker
+    i2s_audio_id: i2s_out_bus
+    dac_type: external
+    mode: stereo
+
+microphone:
+  - platform: i2s_audio
+    id: klingel_mic
+    i2s_audio_id: i2s_in_bus
+    adc_type: external
+    pdm: true
+    channel: left
+
+binary_sensor:
+  - platform: gpio
+    pin:
+      number: GPIO9
+      mode: INPUT_PULLUP
+      inverted: true
+    name: "Klingelknopf"
+    filters:
+      - delayed_on: 50ms
+    on_press:
+      then:
+        - switch.turn_on: gong_relay
+        - delay: 500ms
+        - switch.turn_off: gong_relay
+        - homeassistant.event:
+            event: esphome.button_pressed
+
+switch:
+  - platform: gpio
+    pin: GPIO1
+    name: "Klingel Licht"
+    id: licht_relay
+
+  - platform: gpio
+    pin: GPIO43
+    name: "Gong Auslöser"
+    id: gong_relay
+    internal: true
+
+status_led:
+  pin:
+    number: GPIO21
+    inverted: true
