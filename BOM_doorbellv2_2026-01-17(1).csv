@@ -1,0 +1,18 @@
+ID,Name,Designator,Footprint,Quantity,Price,Link
+1,SEEED XIAO ESP32S3 sense,MOD1,SEEEDUINO XIAO ESP32S3 SENSE,1,21.75$,https://a.aliexpress.com/_EHTl74c
+2,MAX98357A,U4,COMM-TH_7P-L18.6-W17.5-P2.54_MAX98357A,1,,I can provide it
+3,KF301-2P,TB1,KF301-2P,1,4.93$,https://a.aliexpress.com/_EjwHFpm
+4,KF301-3P,"U1,U2",KF301-3P,2,5.14$,https://a.aliexpress.com/_EjwHFpm
+5,TP10322615,U3,SW-SMD_ROCPUSWITCHES_TP1032,1,1.03$,https://a.aliexpress.com/_EHVUdhQ
+6,470uF,C1,470UF 10V FLAT,1,1.23$,https://a.aliexpress.com/_EJdXsSy
+7,2 channel V5 Relais ,,,1,3.41$,https://a.aliexpress.com/_EQO9Om8
+8,PCB,,,1,9.79$,https://jlcpcb.com/
+9,Speaker,,,,,I can provide it
+10,Filament,,,,,I can provide it
+11,MicroSD card,,,,,I can provide it
+12,230v to 5V,,,,,I can provide it
+,,,,,,
+TOTAL,,,,,34.56,
+,,,,,,
+,,,,,,
+NOTE,The links are in swiss francs! The Price here is dollar,,,,,
