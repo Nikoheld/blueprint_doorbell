@@ -6,12 +6,9 @@ JLCPCB:
 <img width="1532" height="527" alt="image" src="https://github.com/user-attachments/assets/b6e4d67e-67f1-4b9d-a5ac-4eaec3686217" />
 
 
+## Fully assembled (note that the relaisboard isn't how it will look in the end. I couldn't find the exact model as a 3d model.)
+<img width="1920" height="1080" alt="Render" src="https://github.com/user-attachments/assets/4a51b537-23ca-4a5c-9c1c-3f99f423aff2" />
 
-
-Sorry for the bad renderings i tried my best and i will try to improve it next time 
-
-## Fully assembled
-<img width="1059" height="1102" alt="image" src="https://github.com/user-attachments/assets/6d2ff66e-91e5-474e-b941-b601c403ea02" />
 
 ## The case
 <img width="1398" height="988" alt="image" src="https://github.com/user-attachments/assets/229059c9-bb1b-4724-9080-b7097f706d80" />
