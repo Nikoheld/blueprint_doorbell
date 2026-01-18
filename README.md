@@ -1,6 +1,10 @@
 # Hackclub Blueprint Doorbell
 
-The main idea was not having to spend that much money on a brand Doorbell and get my first real experience in creating a PCB that runs completly local! Ofcourse the quality won't be the same as for example a reolink or ring doorbell but that's not the point of this project.
+I wanted to replace my old doorbell that sometimes doesn't even work anymore with a smart doorbell that can connect to homeassistant via an esp32 without spending a fortune. 
+
+The main idea was not having to spend that much money on a brand Doorbell and get my first real experience in creating a PCB that runs completly local! The doorbell runs on 230v that are convertet to 5v. Ofcourse the quality won't be the same as for example a reolink or ring doorbell but that's not the point of this project. 
+
+
 
 JLCPCB:
 <img width="1532" height="527" alt="image" src="https://github.com/user-attachments/assets/b6e4d67e-67f1-4b9d-a5ac-4eaec3686217" />
