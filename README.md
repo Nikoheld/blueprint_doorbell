@@ -9,6 +9,10 @@ The main idea was not having to spend that much money on a brand Doorbell and ge
 JLCPCB:
 <img width="1532" height="527" alt="image" src="https://github.com/user-attachments/assets/b6e4d67e-67f1-4b9d-a5ac-4eaec3686217" />
 
+Aliexpress:
+<img width="1049" height="4448" alt="image" src="https://github.com/user-attachments/assets/5863b9b1-ffed-4b89-a1b0-395dbfa1a966" />
+
+
 
 ## Fully assembled (note that the relaisboard isn't how it will look in the end. I couldn't find the exact model as a 3d model.)
 <img width="1920" height="1080" alt="Render" src="https://github.com/user-attachments/assets/4a51b537-23ca-4a5c-9c1c-3f99f423aff2" />
